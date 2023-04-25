@@ -22,18 +22,21 @@ body {
 }
 
 
-li {
-    list-style: none;
-}
 
 
 /* STUDIO */
 /* header */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 .nav-container {
     font-weight: 500;
 }
 
-.nav-logo-link {
+.nav-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -42,7 +45,6 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color-link);
-    text-decoration: none;
 }
 
 .logo-span-header {
@@ -55,7 +57,6 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-color-font);
-    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -63,17 +64,13 @@ li {
     color: var(--hover-color);
 }
 
-.nav-list {
-    list-style: none;
-}
 
 .address-link {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color-font);
-    text-decoration: none;
+    color: var(--main-color-font);
 }
 
 .address-link:hover,
@@ -122,10 +119,6 @@ li {
     width: 1128px;
 }
 
-.section-two-list {
-    list-style: none;
-}
-
 .section-two-name {
     font-weight: 500;
     font-size: 20px;
@@ -142,10 +135,6 @@ li {
 /* Section 3 */
 .section-three-container {
     width: 1128px;
-}
-
-.section-three-list {
-    list-style: none;
 }
 
 .section-three-title {
@@ -172,9 +161,6 @@ li {
     color: var(--second-color-font);
 }
 
-.section-four-list {
-    list-style: none;
-}
 
 .section-four-item {
     width: 264px;
@@ -219,7 +205,6 @@ li {
 /* Section 1 */
 .section-list-button {
     width: 586px;
-    list-style: none;
 }
 
 
@@ -245,34 +230,6 @@ li {
     color: var(--third-color-font);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-}
-
-.one {
-    width: 69px;
-}
-
-.two {
-    width: 116px;
-}
-
-.three {
-    width: 78px;
-}
-
-.four {
-    width: 101px;
-}
-
-.five {
-    width: 126px;
-}
-
-.section-list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .section-item {
