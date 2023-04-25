@@ -33,8 +33,8 @@ li {
     font-weight: 500;
 }
 
-.nav-logo {
-    font-family: 'Raleway',  sans-serif;
+.nav-logo-link {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -42,26 +42,42 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color-link);
+    text-decoration: none;
 }
 
 .logo-span-header {
-    color:var(--main-color-background);
+    color: var(--main-color-background);
 }
-.link {
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color-font);
     text-decoration: none;
 }
-.nav-container a:hover,
-.nav-container a:focus {
+
+.nav-link:hover,
+.nav-link:focus {
     color: var(--hover-color);
 }
 
-.address {
-    font-style: normal;
-    color: var(--second-color-font);
+.nav-list {
+    list-style: none;
 }
 
-.address-contacts:hover,
-.address-contacts:focus {
+.address-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color-font);
+    text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
     color: var(--hover-color);
 }
 
@@ -75,14 +91,18 @@ li {
 .section-one-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--third-color-font);
 }
 
 .section-one-button {
     width: 169px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--third-color-font);
@@ -92,13 +112,27 @@ li {
     cursor: pointer;
 }
 
-.section-one-button:hover {
+.section-one-button:hover,
+.section-one-button:focus {
     background: var(--hover-color);
 }
 
 /* Section 2 */
 .section-two-container {
     width: 1128px;
+}
+
+.section-two-list {
+    list-style: none;
+}
+
+.section-two-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--second-color-font);
+
 }
 
 .section-two-text {
@@ -110,12 +144,17 @@ li {
     width: 1128px;
 }
 
+.section-three-list {
+    list-style: none;
+}
+
 .section-three-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    color: var(--second-color-font);
 }
 
 /* Section 4 */
@@ -127,8 +166,14 @@ li {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--second-color-font);
+}
+
+.section-four-list {
+    list-style: none;
 }
 
 .section-four-item {
@@ -140,7 +185,11 @@ li {
 
 .section-four-name {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-color-font);
 }
 
 .section-four-text {
@@ -155,8 +204,8 @@ li {
 }
 
 .logo-span-footer {
-color: var(--third-color-font);
-    
+    color: var(--second-color-background);
+
 }
 
 .footer-text {
@@ -170,17 +219,19 @@ color: var(--third-color-font);
 /* Section 1 */
 .section-list-button {
     width: 586px;
-
+    list-style: none;
 }
 
 
 .section-button {
     height: 48px;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
     color: var(--main-color-link);
     background: var(--second-color-background);
     border: 1px solid var(--color-border);
@@ -216,6 +267,14 @@ color: var(--third-color-font);
     width: 126px;
 }
 
+.section-list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 .section-item {
     width: 360px;
     height: 420px;
@@ -225,6 +284,10 @@ color: var(--third-color-font);
 
 .section-title {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color-font);
 }
 
 .section-text {
