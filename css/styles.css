@@ -55,7 +55,7 @@ li {
     color: var(--hover-color);
 }
 
-.address-contacts {
+.address {
     font-style: normal;
     color: var(--second-color-font);
 }
@@ -154,10 +154,9 @@ li {
     background: var(--main-color-background);
 }
 
-.footer-container p {}
-
-.footer {
-    color: var(--third-color-font);
+.logo-span-footer {
+color: var(--third-color-font);
+    
 }
 
 .footer-text {
@@ -174,8 +173,10 @@ li {
 
 }
 
+
 .section-button {
     height: 48px;
+    font-family: "Roboto", sans-serif; 
     font-weight: 500;
     align-items: center;
     text-align: center;
