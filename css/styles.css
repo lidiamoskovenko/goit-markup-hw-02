@@ -1,6 +1,6 @@
 :root {
-    --main-color-font: #2E2F42;
-    --second-color-font: #434455;
+    --main-color-font: #434455;
+    --second-color-font: #2E2F42;
     --third-color-font: #FFFFFF;
     --main-color-link: #4D5AE5;
     --main-color-background: #2E2F42;
@@ -13,6 +13,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color-font);
+    background-color: var(--third-color-font);
     width: 1440px;
     font-weight: 400;
     font-size: 16px;
@@ -25,9 +26,6 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* STUDIO */
 /* header */
@@ -36,19 +34,22 @@ a {
 }
 
 .nav-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway',  sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.nav-logo span {
     color: var(--main-color-link);
 }
 
+.logo-span-header {
+    color:var(--main-color-background);
+}
+.link {
+    text-decoration: none;
+}
 .nav-container a:hover,
 .nav-container a:focus {
     color: var(--hover-color);
@@ -101,7 +102,7 @@ a {
 }
 
 .section-two-text {
-    color: var(--second-color-font);
+    color: var(--main-color-font);
 }
 
 /* Section 3 */
@@ -144,7 +145,7 @@ a {
 
 .section-four-text {
     text-align: center;
-    color: var(--second-color-font);
+    color: var(--main-color-font);
 }
 
 /* footer */
@@ -217,7 +218,7 @@ a {
 .section-item {
     width: 360px;
     height: 420px;
-    background: #FFFFFF var(--third-color-font);
+    background: var(--third-color-font);
     border: 1px solid var(--color-border);
 }
 
@@ -226,5 +227,5 @@ a {
 }
 
 .section-text {
-    color: var(--second-color-font);
+    color: var(--main-color-font);
 }
