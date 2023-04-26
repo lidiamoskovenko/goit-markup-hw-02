@@ -7,22 +7,15 @@
     --second-color-background: #F4F4FD;
     --hover-color: #404BBF;
     --color-border: #E7E9FC;
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color-font);
     background-color: var(--third-color-font);
-    width: 1440px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
-
-
-
 
 /* STUDIO */
 /* header */
@@ -35,22 +28,18 @@ body {
 .nav-container {
     font-weight: 500;
 }
-
 .nav-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color-link);
 }
-
 .logo-span-header {
     color: var(--main-color-background);
 }
-
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -58,12 +47,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-color-font);
 }
-
 .nav-link:hover,
 .nav-link:focus {
     color: var(--hover-color);
 }
-
 .address {
     font-style: normal;
 }
@@ -73,19 +60,16 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color-font);
 }
-
 .address-link:hover,
 .address-link:focus {
     color: var(--hover-color);
 }
-
 /* Main */
 /* section 1 */
 .section-one-container {
     width: 1440px;
     background: var(--main-color-background);
 }
-
 .section-one-title {
     font-weight: 700;
     font-size: 56px;
@@ -94,14 +78,12 @@ body {
     text-align: center;
     color: var(--third-color-font);
 }
-
 .section-one-button {
     width: 169px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--third-color-font);
     background: var(--main-color-link);
@@ -109,35 +91,30 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .section-one-button:hover,
 .section-one-button:focus {
     background: var(--hover-color);
 }
-
 /* Section 2 */
 .section-two-container {
     width: 1128px;
 }
-
 .section-two-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,2;
     letter-spacing: 0.02em;
     color: var(--second-color-font);
-
 }
-
 .section-two-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-color-font);
 }
-
 /* Section 3 */
 .section-three-container {
     width: 1128px;
 }
-
 .section-three-title {
     font-weight: 700;
     font-size: 36px;
@@ -146,12 +123,10 @@ body {
     text-transform: capitalize;
     color: var(--second-color-font);
 }
-
 /* Section 4 */
 .section-four-container {
     background: var(--second-color-background);
 }
-
 .section-four-title {
     font-weight: 700;
     font-size: 36px;
@@ -161,15 +136,12 @@ body {
     text-transform: capitalize;
     color: var(--second-color-font);
 }
-
-
 .section-four-item {
     width: 264px;
     background: var(--third-color-font);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-
 .section-four-name {
     font-weight: 500;
     font-size: 20px;
@@ -178,37 +150,32 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-color-font);
 }
-
 .section-four-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--main-color-font);
 }
-
 /* footer */
 .footer-container {
     height: 312px;
     background: var(--main-color-background);
 }
-
 .logo-span-footer {
     color: var(--second-color-background);
-
 }
-
 .footer-text {
     width: 264px;
     height: 72px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--second-color-background);
-
 }
-
 /* PORTFOLIO */
 /* Section 1 */
 .section-list-button {
     width: 586px;
 }
-
-
 .section-button {
     height: 48px;
     font-family: "Roboto", sans-serif;
@@ -216,7 +183,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    align-items: center;
     text-align: center;
     color: var(--main-color-link);
     background: var(--second-color-background);
@@ -224,7 +190,6 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .section-button:hover,
 .section-button:focus {
     background: var(--hover-color);
@@ -232,14 +197,12 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-
 .section-item {
     width: 360px;
     height: 420px;
     background: var(--third-color-font);
     border: 1px solid var(--color-border);
 }
-
 .section-title {
     font-weight: 500;
     font-size: 20px;
@@ -247,7 +210,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-color-font);
 }
-
 .section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-color-font);
 }
